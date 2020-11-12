@@ -1,22 +1,26 @@
-import React from "react"
-import { Link } from "gatsby"
-
+import React from "react";
+import Nav from "../components/navigation/nav";
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Banner from "../components/banner/banner"
+import UpperMain from "../components/upper-main/upper-main"
+import LowerMain from "../components/lower-main/lower-main"
+import MidMain from "../components/mid-main/mid-main"
+import Footer from "../components/footer/footer"
+import Newsletter from "../components/footer/newsletter"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
+const Main = (props) => {
 
-export default IndexPage
+    return (
+        <Layout>
+            <Nav pathExt={props.path} />
+            <Banner />
+            <LowerMain />
+            <MidMain />
+            <UpperMain />
+            <Newsletter />
+            <Footer />
+        </Layout>
+    )
+}
+
+export default Main;

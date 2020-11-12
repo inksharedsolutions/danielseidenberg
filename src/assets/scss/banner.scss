@@ -1,0 +1,71 @@
+.banner-section .view {
+    // background-image: url("http://mdbootstrap.com/img/Photos/Others/images/91.jpg");
+    background-image: url("../../../static/banner/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.banner-section .gradient {
+    background: -webkit-linear-gradient(45deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(79, 79, 80, 0.4) 100%);
+    background: -webkit-gradient(linear,
+            45deg,
+            from(rgba(0, 0, 0, 0.7),rgba(235, 204, 168, 1) 100%));
+    background: linear-gradient(45deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(235, 204, 168, 1) 100%);
+}
+
+.banner-section .card {
+    background-color: rgba(235, 204, 168, 0.2);
+}
+
+.banner-section h6 {
+    line-height: 1.7;
+}
+
+.banner-section .navbar {
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.banner-section .top-nav-collapse {
+    background: #ebcca8 !important;
+}
+
+@media (max-width: 768px) {
+    .banner-section .navbar:not(.top-nav-collapse) {
+        background: #ebcca8 !important;
+    }
+}
+
+.banner-section label {
+    color: #fff !important;
+}
+
+.author {
+    border-radius: 5vh;
+    // padding-top: 5vh;
+    // padding-left: 10vh;
+    // padding-bottom: 10vh;
+    // padding-right: 10vh;
+    width: 50vh;
+}
+
+.banner-content-wrapper {
+    // h1 {
+    //     span {
+    //         color: #fff !important;
+    //         display: block;
+    //         font-weight: 100;
+    //     }
+    // }
+
+    // button {
+    //     border-radius: 21px;
+    //     background: #1D2E7E;
+    //     padding: 1em 4em;
+    // }
+}

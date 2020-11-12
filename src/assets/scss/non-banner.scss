@@ -1,0 +1,50 @@
+#classicformpage .view {
+    // background-image: url("http://mdbootstrap.com/img/Photos/Others/images/91.jpg");
+    background-image: url("../../../static/banner/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#classicformpage .gradient {
+    background: -webkit-linear-gradient(45deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(79, 79, 80, 0.4) 100%);
+    background: -webkit-gradient(linear,
+            45deg,
+            from(rgba(0, 0, 0, 0.7), rgba(232, 221, 165, 1) 100%));
+    background: linear-gradient(45deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(232, 221, 165, 1) 100%);
+}
+
+#classicformpage .card {
+    background-color: rgba(126, 123, 215, 0.2);
+}
+
+#classicformpage h6 {
+    line-height: 1.7;
+}
+
+#classicformpage .navbar {
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+#classicformpage .top-nav-collapse {
+    background: #e8dda5 !important;
+}
+
+@media (max-width: 768px) {
+    #classicformpage .navbar:not(.top-nav-collapse) {
+        background: #e8dda5 !important;
+    }
+}
+
+#classicformpage label {
+    color: #fff !important;
+}
+
+.author {
+    border-radius: 10vh;
+}
