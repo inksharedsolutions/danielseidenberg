@@ -38,7 +38,7 @@ const Pp = (props) => {
 
                 <div className="container">
                     <div id="privacy-policy-content">
-                        <div className="">{Parser(data.html)}</div>
+                        <div className="policy-content">{Parser(data.html)}</div>
                     </div>
                 </div>
                 <Footer />

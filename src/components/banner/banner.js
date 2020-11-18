@@ -47,7 +47,7 @@ class Banner extends React.Component {
                                     <h1 className="h1-responsive font-weight-bold">
                                         VIETNAM AMBUSH
                                     </h1> 
-                                    <span className="soldier">Soldier on the Bush</span>
+                                    <span className="soldier">Soldier in the Bush</span>
                                     <hr className="hr-light" />
                                     <h6 className="mb-4">
                                     “There is no instance of a country having benefited from prolonged warfare.
