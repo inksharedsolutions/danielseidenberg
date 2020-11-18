@@ -19,7 +19,7 @@ const Footer = () => {
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/StrattonPressInc/"
+                                <a href="https://www.facebook.com/Daniel-Seidenberg-Jr-103361877973945"
                                     target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -50,7 +50,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     target="_blank"
-                                    href="https://www.goodreads.com/book/show/49439802-the-last-castle-in-brooklyn">
+                                    href="https://www.goodreads.com/book/show/52508430-vietnam-ambush">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faGoodreads} />

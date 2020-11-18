@@ -47,10 +47,10 @@ class Banner extends React.Component {
                                     <h1 className="h1-responsive font-weight-bold">
                                         VIETNAM AMBUSH
                                     </h1> 
-                                    <span>Soldier on the Bush</span>
+                                    <span className="soldier">Soldier on the Bush</span>
                                     <hr className="hr-light" />
                                     <h6 className="mb-4">
-                                    “This memoir will give the reader an invaluable insight into one’s participation in a war that today most Americans prefer to forget about.”
+                                    “There is no instance of a country having benefited from prolonged warfare.
                   </h6>
                                     <MDBBtn outline color="white">
                                         <Link to="/about-the-book">Read More</Link>

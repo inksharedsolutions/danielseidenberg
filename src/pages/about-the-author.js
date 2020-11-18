@@ -20,39 +20,18 @@ const ATB = (props) => {
                     <div className="author-image-container">
                         <img src={AuthorImg} />
                     </div>
+                        
                     <section className="body-author-contents columns">
 
                         <article className="article-section row" id="author">
                             <p>
-                                Lady Simone is a doctor of naturopathy, pastor, entrepreneur, and author of five books,
-                                the latest being <i>Financial Freedom by Faith</i>. Her workshops, lectures, and seminars on natural
-                                healing with iridology, healing with alternative medicine, the power of faith, and manifesting
-                                money set people free to live abundant, healthier lives and make her a captivating, sought-after
-                                motivational speaker.
+                            Daniel Seidenberg, Jr. was born in Germany in 1947. His father was serving with the U.S. Army Air Corps and his mother was working as a secretary to the Nuremberg war trials. After moving back to the United States, he was raised in Santa Barbara County, California. In high school, he prepared for college and enjoyed surfing the southern California waves. Daniel had never planned on soldiering when he received a draft notice in 1968, but finally decided to answer the call by volunteering to serve in the Army. Seven months later he was posted as an infantryman with the 199th Light Infantry Brigade in III Corps Tactical Zone, Republic of Vietnam.
                             </p>
-
-                            <p>
-                                Visit <a href="http://drsimonelord.com/" target="_blank">www.drsimonelord.com</a> for the addresses for juice bar, church, wellness
-                                center, books, health supplements, events, and upcoming retreats.
-                            </p>
-
-                            <p>
-                                Her corporate background and journalistic and media career has allowed her to meet and interview
-                                many powerful leaders: President Obama, First Lady Michelle Obama, Pulitzer Prize winners, artists,
-                                literary geniuses, and thinkers.
-                            </p>
-
-                            <p>
-                                Lady Simone has earned honorary doctorate degrees in humanities and ministry and also has a bachelor
-                                of arts degree from Brooklyn College, New York. She is the recipient of numerous awards from the US Senate,
-                                Brooklyn Borough president, mayor of New York, council of New York, and many more.
-                            </p>
-
 
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author |  Writer </span>
-                                    <span className="ata-name">Lady Simone </span>
+                                    <span className="ata-name">Daniel Seidenberg Jr.</span>
                                 </span>
                             </p>
                         </article>

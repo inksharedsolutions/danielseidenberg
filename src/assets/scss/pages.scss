@@ -100,7 +100,7 @@ $prm-font-size : 12px;
 
     p {
         line-height: 2.2;
-        color: #535353;
+        color: #535353 !important;
         text-align: justify;
         margin-bottom: 2em;
     }
@@ -396,7 +396,7 @@ $prm-font-size : 12px;
 
     span {
         font-weight: bold;
-        color: #383838ee;
+        color: #383838ee !important;
         margin: 0.5em 0;
         display: block;
         font-size: 1.5em;
@@ -417,6 +417,7 @@ $prm-font-size : 12px;
 
     p {
         margin-top: 3em;
+        color: black !important;
     }
 }
 
