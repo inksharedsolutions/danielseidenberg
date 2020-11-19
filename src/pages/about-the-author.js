@@ -25,7 +25,16 @@ const ATB = (props) => {
 
                         <article className="article-section row" id="author">
                             <p>
-                            Daniel Seidenberg, Jr. was born in Germany in 1947. His father was serving with the U.S. Army Air Corps and his mother was working as a secretary to the Nuremberg war trials. After moving back to the United States, he was raised in Santa Barbara County, California. In high school, he prepared for college and enjoyed surfing the southern California waves. Daniel had never planned on soldiering when he received a draft notice in 1968, but finally decided to answer the call by volunteering to serve in the Army. Seven months later he was posted as an infantryman with the 199th Light Infantry Brigade in III Corps Tactical Zone, Republic of Vietnam.
+                            Daniel Seidenberg, Jr. US Army, Retired
+                            -Veteran bonafides
+                            US Army, Retired, Dakota Company, 5/12 Infantry Regiment, 199th Light Infantry Brigade
+                            light weapons infantry, combat advance man/patrol leader, RVN 1968/69
+                            Founding Board member Santa Barbara chapter #218, Vietnam Veterans of America, 1985
+                            Independence Day Parade Chairman,  Santa Barbara, California, 1986
+                            Chairman, Santa Barbara Veterans Coordinating Council, 1987
+                            Commander, Santa Barbara Veterans of Foreign Wars Post, #1649, 1988/89
+                            Founding member, President, Santa Barbara Veterans for Peace Chapter #54, 1990
+
                             </p>
 
                             <p>

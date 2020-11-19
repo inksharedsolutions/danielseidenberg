@@ -1,0 +1,254 @@
+/*
+* Responsive Media Queries
+*/
+@media screen and (max-width: 1300px) {
+  /*Updated*/
+  .book-wraps::before {
+    -moz-transform: translate(-25px, -82px);
+    -webkit-transform: translate(-25px, -82px);
+    transform: translate(-25px, -82px);
+    height: 620px;
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .container-gt {
+    max-width: 800px;
+  }
+
+  .upper-main {
+    padding: 6% 0;
+  }
+  .upper-main h1 {
+    font-size: 2.5em;
+  }
+
+  .grid-two-columns {
+    grid-template-columns: auto;
+  }
+
+  #privacy-policy-content,
+#terms-and-conditions-content {
+    margin: 4em 1em !important;
+  }
+
+  .close-mark {
+    display: block !important;
+  }
+
+  .columns {
+    margin: 0 !important;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .banner-content-wrapper h1 {
+    font-size: 1.6em !important;
+  }
+
+  .book-wraps {
+    order: 1;
+    padding: 0;
+  }
+
+  .content-wraps {
+    order: 2;
+    text-align: center;
+  }
+  .content-wraps button {
+    margin: 0 auto;
+  }
+
+  .non-active-nav,
+.banner-img {
+    display: none;
+  }
+
+  .banner-img:before,
+.book-wraps:before {
+    display: none;
+  }
+
+  .hamburger-ul {
+    display: block !important;
+  }
+
+  .active-nav {
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    background: #060606;
+    right: 0;
+  }
+  .active-nav ul {
+    text-align: left;
+    transform: translateY(10em);
+    margin: 0 3em;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+  }
+  .active-nav ul a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 620px) {
+  .footer-section #footer-info {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    text-align: center;
+  }
+  .footer-section #footer-info h1 {
+    font-size: 3em;
+    color: #ffff;
+    font-weight: 800;
+    letter-spacing: 6px;
+  }
+
+  .banner-section {
+    height: 90vh !important;
+  }
+  .banner-section .container-gt {
+    padding-top: 50rem;
+  }
+
+  .web-banner h1 {
+    font-size: 2.5em !important;
+  }
+
+  .wrapperMain {
+    margin: 1em 0 !important;
+  }
+
+  .close-mark {
+    right: 20px;
+  }
+
+  .body-author-contents {
+    padding: 16px !important;
+    margin: 0;
+  }
+
+  body p {
+    font-size: 1em !important;
+  }
+
+  .active-nav li {
+    font-size: 1.3em;
+  }
+
+  .bookImgContainer img {
+    width: 100% !important;
+  }
+
+  .heading-quote {
+    padding: 0 10px !important;
+  }
+
+  .booklinkBlocks li {
+    background: #0e1b23;
+    margin-bottom: 6px;
+    display: block !important;
+    margin-bottom: 0.6em;
+    padding: 10px 4px !important;
+    text-align: center;
+  }
+  .booklinkBlocks li a {
+    padding: 0 !important;
+  }
+
+  #author-container {
+    height: 100%;
+    grid-template-columns: auto;
+  }
+
+  .upper-main {
+    padding-top: 15rem;
+  }
+  .upper-main #wrapper-two-books {
+    margin: 5% 4%;
+  }
+
+  .grid-two-columns {
+    grid-template: initial;
+    height: auto;
+  }
+
+  #banner-layout-responsive {
+    height: 90vh !important;
+  }
+
+  .newsletter-section {
+    padding: 12% 0;
+  }
+
+  .author-section {
+    margin: 3.2em 0;
+  }
+
+  .wrapper-auth-content {
+    text-align: center;
+  }
+  .wrapper-auth-content button {
+    display: block;
+    margin: 2em auto;
+  }
+
+  .banner-img {
+    display: none;
+  }
+
+  .two-grid-column {
+    grid-template-columns: auto !important;
+    width: 100%;
+    display: block !important;
+  }
+  .two-grid-column ul {
+    padding: 0;
+  }
+  .two-grid-column ul li a {
+    padding: 0 1em;
+  }
+
+  .container-gt {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .book-wraps img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .form-newsletter-wrapper button {
+    display: block;
+    margin: 1em auto;
+  }
+
+  .heading-quote {
+    margin: 0 0 !important;
+  }
+
+  .div-text-elem:nth-child(2) span {
+    font-size: 22px;
+  }
+
+  .grid-element-text {
+    grid-template-columns: 65px 1fr;
+  }
+
+  .f-letter-elem {
+    font-size: 2.5em;
+  }
+}
