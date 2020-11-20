@@ -21,7 +21,10 @@ const LowerMain = () => {
                         <div className="wrapper-auth-content">
 
                             <p>
-                             At age nineteen, Daniel Seidenberg Jr. received a draft notice. Thus began his journey through army life, infantry combat, and nearly fatal wounds that left him totally disabled.
+                            Daniel Seidenberg, Jr. US Army, Retired
+                            -Veteran bonafides
+                            US Army, Retired, Dakota Company, 5/12 Infantry Regiment, 199th Light Infantry Brigade
+                            light weapons infantry, combat advance man/patrol leader....
                             </p>
 
                             <h1>
