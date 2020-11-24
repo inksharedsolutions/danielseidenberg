@@ -137,6 +137,9 @@
 .newsletter-section h1 {
   font-size: 3em;
 }
+.newsletter-section p {
+  color: black !important;
+}
 
 .form-newsletter-wrapper input[name=email] {
   width: 60%;
