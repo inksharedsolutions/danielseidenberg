@@ -55,11 +55,11 @@ const ATB = (props) => {
                             }}
                         />
                         <div class="external-reviews-cont">
-                            <h3>External Reviews:</h3>
+                            <h3>Local Author Tells Cautionary War Tale</h3>
                             <ul class="reviews-list">
                                 <li>
                                 Forty years after being seriously injured in the Vietnam War, Daniel Seidenberg Jr. — a local Santa Barbara author and Vietnam veteran — decided it was time to tell his story. His book, titled Vietnam Ambush, is a short narrative that chronicles Seidenberg’s three-month experience in the war that left him scarred and disabled for the rest of his life. 
-                                <a target="_blank" href="https://www.independent.com/2010/04/25/vietnam-ambush/">Read more</a>
+                                <a target="_blank" href="https://www.independent.com/2010/04/25/vietnam-ambush/"> Read more</a>
                                 </li>
                             </ul>
                         </div>
