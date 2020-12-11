@@ -129,6 +129,34 @@ $prm-font-size : 12px;
     margin: 123px 0;
 }
 
+.external-reviews-cont {
+    background: #d8bea3;
+    padding: 30px;
+    border-radius: 4px;
+    border-left: 3px solid #bd8954;
+    margin-bottom: 40px;
+
+    .reviews-list {
+        margin: 20px 0 0 20px;
+
+        li{
+            border-left: 3px solid #bd8954;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    }
+
+    h3{
+        font-size: 1.2em !important;
+        color: #fff;
+    }
+
+    a{
+        font-size: inherit;
+        color: #bf7b0b!important;
+    }
+}
+
 .bookImgContainer {
 
     text-align: center;
