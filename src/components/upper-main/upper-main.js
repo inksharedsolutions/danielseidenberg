@@ -28,7 +28,7 @@ const LowerMain = () => {
                             </p>
 
                             <h1>
-                                Daniel Seidneberg
+                                Daniel Seidenberg
                             </h1>
 
                             <span className="span-tagline">
